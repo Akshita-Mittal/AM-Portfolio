@@ -1544,14 +1544,14 @@ textarea::placeholder {
 		transform: rotateY(90deg) translateZ(-70px);
 	}
 	.skill-content {
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 	.skill-content .heading-wrap br{
 		display: none;
 	}
-	.skill-content .para-wrap :nth-child(4){
+	/* .skill-content .para-wrap :nth-child(4){
 		display: none;
-	}
+	} */
 	.work--lockup .slider--next svg, .work--lockup .slider--prev svg {
 		width: 15px;
 	}
@@ -1607,7 +1607,7 @@ textarea::placeholder {
 		font-size: 30px;
 	}
 	.para-wrap p {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.about-content .tags, 
 	.skill-content .tags,
