@@ -1610,8 +1610,7 @@ textarea::placeholder {
 		font-size: 14px;
 	}
 	.about-content .tags, 
-	.skill-content .tags,
-	.contact-content .tags {
+	.skill-content .tags {
 		display: none;
 	}
 	.work--lockup .slider {
