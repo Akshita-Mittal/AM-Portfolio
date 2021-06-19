@@ -1599,6 +1599,32 @@ textarea::placeholder {
 	text-align: center;
 }
 
+.ball {
+	background-color: #001bff;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    animation: heartbeat 2s infinite;
+  }
+  
+  @keyframes heartbeat {
+	0% { 
+	  transform: translate(-50%, -50%) scale(1); 
+	}
+	50% { 
+	  transform: translate(-50%, -50%) scale(1.2); 
+	}
+	100% { 
+	  transform: translate(-50%, -50%) scale(1); 
+	}
+  }
+
 @media (max-width: 1180px) {
 	.l-side-nav {
 		display: none
