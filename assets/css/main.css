@@ -1752,8 +1752,15 @@ textarea::placeholder {
 	.outer-nav>li::before {
 		height: 5px;
 	}
+	.header{
+		height: 40px;
+	}
+	.header--logo{
+		height: 40px;
+	}
 	.header--logo .logo-txt {
 		font-size: 50px;
+		line-height: 1;
 	}
 	.intro--banner h1 {
 		font-size: 30px;
@@ -1815,7 +1822,8 @@ textarea::placeholder {
 		display: block;
 	}
 	.contact-wrap h2 {
-		margin: 15px 0;
+		margin: 10px 0;
+    	line-height: 1;
 	}
 	.icon {
 		width: 50px;
@@ -1832,8 +1840,8 @@ textarea::placeholder {
 	.contact-wt h3 {
 		font-size: 15px;
 	}
-	.contact-wt a {
-		padding: 10px 0;
+	.contact-wt a, .contact-wt p {
+		padding: 0;
 	}
 	.contact-follow-wrap span {
 		margin: 15px auto;
